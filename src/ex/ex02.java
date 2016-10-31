@@ -20,6 +20,7 @@ public class ex02 {
 
 	}
 
+	public static int fun1(int o) {
 		int sum = 1;
 		for (int i = 1; i <= o; i++) {
 			sum *= i;
