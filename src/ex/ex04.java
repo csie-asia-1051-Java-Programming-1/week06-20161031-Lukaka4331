@@ -10,7 +10,19 @@ public class ex04 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
         Scanner scn=new Scanner(System.in);
-
+        System.out.print("輸入幾個數");
+        int n=scn.nextInt();
+        int data[]=new int[n];
+        for(int i=0;i<data.length;i++){
+        	data[i]=scn.nextInt();
+        }
+        fun(data);}
+	public static void fun(int data[]){
+		for(int i=0;i<data.length;i++){
+			data[i]=data[i]*data[i];
+			System.out.println(data[i]);
+			
+		}
 	}
 
 }
